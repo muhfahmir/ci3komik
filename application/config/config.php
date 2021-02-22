@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/ci3-project/ci3komik/';
-$config['base_url'] = 'https://ci3komik.herokuapp.com/';
+$config['base_url'] = 'http://localhost/ci3-project/ci3komik/';
 
 /*
 |--------------------------------------------------------------------------

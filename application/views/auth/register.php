@@ -13,9 +13,6 @@
         <div class="container">
             <div class="row justify-content-center app__form">
                 <div class="col-md-7">
-                    <?php if (($this->session->flashdata('message3'))) : ?>
-                        <?= $this->session->flashdata('message3'); ?>
-                    <?php endif ?>
                     <div class="card">
                         <div class="card-header text-center">
                             <h3>Form Register</h3>
