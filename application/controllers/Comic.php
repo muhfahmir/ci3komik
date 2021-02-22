@@ -13,7 +13,7 @@ class Comic extends CI_Controller
     public function index()
     {
         $this->load->library('pagination');
-        $config['base_url'] = "http://localhost/ci3-project/ci3komik/comic/index";
+        $config['base_url'] = base_url() . "comic/index";
 
         if (isset($_POST['submit'])) {
             $data['keyword'] = $this->input->post('keyword');
